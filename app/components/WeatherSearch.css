@@ -1,0 +1,84 @@
+/* WeatherSearch.css */
+
+.weather-container {
+  max-width: 28rem; /* max-w-md */
+  margin: 2.5rem auto 0; /* mx-auto mt-10 */
+  padding: 1.5rem; /* p-6 */
+  background-color: white; /* bg-white */
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+  text-align: center; /* text-center */
+  font-family: sans-serif;
+}
+
+.weather-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  margin-bottom: 1rem; /* mb-4 */
+  color: #1f2937; /* text-gray-800 */
+  background-color: #ffffff;
+}
+
+/* Search Box Styles */
+.search-box {
+  display: flex; /* flex */
+  gap: 0.5rem; /* gap-2 */
+  
+}
+
+.city-input {
+  border: 1px solid #e5e7eb; /* border */
+  padding: 0.5rem; /* p-2 */
+  border-radius: 0.25rem; /* rounded */
+  width: 100%; /* w-full */
+  color: black; /* text-black */
+  outline: none;
+}
+
+.search-btn {
+  background-color: #2563eb; /* bg-blue-600 */
+  color: white; /* text-white */
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  border-radius: 0.25rem; /* rounded */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-btn:hover {
+  background-color: #1d4ed8; /* hover:bg-blue-700 */
+}
+
+/* Result Styles */
+.weather-result {
+  margin-top: 1.5rem; /* mt-6 */
+  background-color: #dfe0e1;
+}
+
+.city-name {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 700; /* font-bold */
+  color: #374151; /* text-gray-700 */
+}
+
+.temperature {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700; /* font-bold */
+  color: #2563eb; /* text-blue-600 */
+  margin: 0.5rem 0; /* my-2 */
+}
+
+.weather-desc {
+  color: #6b7280; /* text-gray-500 */
+  text-transform: capitalize; /* capitalize */
+}
+
+.weather-details {
+  margin-top: 1rem; /* mt-4 */
+  display: grid; /* grid */
+  grid-template-columns: repeat(2, 1fr); /* grid-cols-2 */
+  gap: 1rem; /* gap-4 */
+  font-size: 0.875rem; /* text-sm */
+  color: #4b5563; /* text-gray-600 */
+  background-color: rgb(250, 249, 247);
+}

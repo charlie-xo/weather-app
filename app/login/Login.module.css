@@ -1,0 +1,80 @@
+/* src/app/login/Login.module.css */
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: #ffffff; /* Dark Blue */
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #64748b; /* Grey text */
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  border-color: #3b82f6; /* Focus pannum pothu Blue border */
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.button {
+  width: 100%;
+  padding: 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #1d4ed8;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
