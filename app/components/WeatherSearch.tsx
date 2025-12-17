@@ -5,7 +5,9 @@ import "./WeatherSearch.css"; // Inga External CSS ah import panrom
 
 export default function WeatherSearch() {
   const [city, setCity] = useState("");
-  const [weather, setWeather] = useState<any>(null);// Type 'any' removed for cleaner JS, add if using TS
+  
+  // Fixing deployment error
+  const [weather, setWeather] = useState<any>(null);
   const [loading, setLoading] = useState(false);
 
   const fetchWeather = async () => {
